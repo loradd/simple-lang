@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./gradlew -q --console=plain installDist && "./build/install/simple/bin/simple" "$@"

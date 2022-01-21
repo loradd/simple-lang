@@ -1,0 +1,9 @@
+InvocationExpression
+  T[example]
+  T[(]
+  NameExpression
+    T[variable]
+  T[,]
+  NumberExpression
+    T[10]
+  T[)]

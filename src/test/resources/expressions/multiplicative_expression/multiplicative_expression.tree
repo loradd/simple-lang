@@ -1,0 +1,10 @@
+MultiplicativeExpression
+  MultiplicativeExpression
+    NameExpression
+      T[first]
+    T[*]
+    NumberExpression
+      T[10]
+  T[/]
+  NameExpression
+    T[third]

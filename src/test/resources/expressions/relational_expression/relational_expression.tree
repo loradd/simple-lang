@@ -1,0 +1,18 @@
+RelationalExpression
+  RelationalExpression
+    RelationalExpression
+      RelationalExpression
+        NameExpression
+          T[first]
+        T[<]
+        NameExpression
+          T[second]
+      T[>]
+      NumberExpression
+        T[10]
+    T[<=]
+    NumberExpression
+      T[11]
+  T[>=]
+  NumberExpression
+    T[0]

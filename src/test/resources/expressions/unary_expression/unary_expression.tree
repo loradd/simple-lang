@@ -1,0 +1,8 @@
+UnaryExpression
+  T[-]
+  UnaryExpression
+    T[+]
+    UnaryExpression
+      T[!]
+      NameExpression
+        T[variable]

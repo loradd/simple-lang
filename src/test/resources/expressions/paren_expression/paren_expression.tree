@@ -1,0 +1,8 @@
+ParenExpression
+  T[(]
+  ParenExpression
+    T[(]
+    NumberExpression
+      T[10]
+    T[)]
+  T[)]

@@ -1,0 +1,8 @@
+ExpressionStatement
+  AdditiveExpression
+    NameExpression
+      T[first]
+    T[+]
+    NameExpression
+      T[second]
+  T[;]

@@ -1,0 +1,6 @@
+BindStatement
+  T[variable]
+  T[=]
+  NameExpression
+    T[expression]
+  T[;]
