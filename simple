@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-./gradlew -q --console=plain installDist && "./build/install/simple/bin/simple" "$@"
+./gradlew -q --console=plain installDist 2> >(grep -v "^Picked up JAVA_TOOL_OPTIONS:" >&2)
+"./build/install/simple/bin/simple" "$@" 2> >(grep -v "^Picked up JAVA_TOOL_OPTIONS:" >&2)
