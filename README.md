@@ -24,14 +24,13 @@ _Return Statements_ terminate the execution of their container function and retu
 return <expression>;
 ```
 
-_Print Statements_ print out a value in the standard output stream: `print <expression>;`
+_Print Statements_ print out a value in the standard output stream: 
 
 ```
 print <expression>;
 ```
 
-_Conditional Statements_ allow users to branch and execute specific statements based on the outcome of one or more
-conditions:
+_Conditional Statements_ allow users to branch and execute specific statements based on some condition:
 
 ```
 if (<expression>) {
@@ -43,7 +42,7 @@ if (<expression>) {
 }
 ```
 
-_Binding Statements_ allow to associates names to values, i.e. assignments:
+_Binding Statements_ allow to associate names to values, i.e. assignments:
 
 ```
 <ID> = <expression>;
@@ -82,7 +81,7 @@ The parser entry rule can be specified through one of the options among:
 * `--expression`: start from the _Expression_ parser rule;
 
 For example, the following command will print out the parse tree obtained from the content
-in `additive_expression.simple`:
+in _additive_expression.simple_ starting from the _expression_ parser rule:
 
 ```
 ./simple parse tree --expression src/test/resources/expressions/additive_expression/additive_expression.simple
